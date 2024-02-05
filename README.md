@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/advice-generator-app-using-html-css-and-javascript-UskplOIDmT))
+- Live Site URL: [live url]([https://your-live-site-url.com](https://brishar0n.github.io/Advice-Generator-App/))
 
 ## My process
 
