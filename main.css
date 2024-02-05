@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Manrope:wght@800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  user-select: none;
+}
+
+body {
+  background-color: hsl(217, 19%, 24%);
+  padding: 1.25rem;
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.container {
+  background-color: hsl(217, 19%, 38%);
+  padding: 1.25rem 1.25rem 3rem;
+  border-radius: 1.25rem;
+  position: relative;
+}
+
+.container h1 {
+  color: hsl(150, 100%, 66%);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.4rem;
+}
+
+.container p {
+  font-size: 28px;
+  color: hsl(193, 38%, 86%);
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+
+.container picture img {
+  background-color: hsl(217, 19%, 38%);
+  position: relative;
+}
+
+.container picture::before {
+  content: "";
+  width: 40%;
+  height: 1px;
+  background-color: hsl(193, 38%, 86%);
+  right: 1.25rem;
+  bottom: 3.8rem;
+  position: absolute;
+  display: block;
+  z-index: 99;
+}
+
+.container picture::after {
+  content: "";
+  width: 45%;
+  height: 1px;
+  background-color: hsl(193, 38%, 86%);
+  left: 0;
+  bottom: 0.74rem;
+  position: relative;
+  display: block;
+}
+
+.container button {
+  background-color: hsl(150, 100%, 66%);
+  padding: 1.1rem;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.container button:hover {
+  background-color: hsl(150, 59%, 54%);
+}
+
+@media (min-width: 500px) {
+  .container {
+    max-width: 480px;
+  }
+}
